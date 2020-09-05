@@ -1,0 +1,17 @@
+//第三章作业,这里用到了转义字符
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	cout << "enter your agent code:____\b\b\b\b";
+	long code; //long 是针对double，
+	cin >> code;
+	cin.get();
+	cout << "code="<< code << endl;
+	cin.get();
+	return 0;
+
+}
+
+另外数据类型，short，int，long，long long
